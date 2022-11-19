@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(to right, rgb(158, 46, 124) , rgb(99, 65, 179));
+}
+h1{
+    color: #00ffdd;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+h2{
+    color: #66be75;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.container{  
+    text-align: center;  
+    padding-top: 40px;  
+    }
+#btn{
+    font-size: 25px;  
+}

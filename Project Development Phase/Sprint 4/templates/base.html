@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A gesture based tool for sterile browsing of radiology images</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <h1>A Gesture Based Tool For Sterile Browsing Of Radiology Images</h1>  
+    <form action="/app" method="post">
+        <div class="container">  
+        <button id="btn" type="submit">START</button>
+    </div> 
+    <img src="{{ url_for('static', filename='images/hands_image.png') }}" alt="Guide" width="100%" height="100%"> 
+    <h2>press 'q' for force quit</h2>
+</body>
+</html>
